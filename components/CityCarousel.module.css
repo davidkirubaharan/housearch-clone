@@ -1,0 +1,162 @@
+/* Override Swiper default positions */
+.swiper-button-prev,
+.swiper-button-next {
+  position: static !important;
+  margin: 0 !important;
+}
+
+/* Wrap both arrows on the right */
+.navRight {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.swiper-slide {
+  width: 265px !important;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+
+.navArrow::after {
+  font-size: 16px;
+  color: #101010;
+}
+
+.swiper-backface-hidden .swiper-slide {
+  
+  padding: 6px !important;
+}
+
+.CityCarousel_cityCard__R_zUI > img {
+  width: 370px !important;
+}
+.carouselSection {
+  margin: 40px auto;
+  padding: 0 20px;
+  max-width: 1260px;
+  min-width: 1000px;
+  box-sizing: border-box;
+}
+
+.carouselHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.carouselHeader h3 {
+  font-size: 34px;
+  font-weight: 700;
+  margin: 0;
+  color: #141414;
+}
+.carouselHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.carouselTitle {
+  font-size: 32px;
+  font-weight: 700;
+  color: #141414;
+}
+
+.arrowGroup {
+  display: flex;
+  gap: 12px;
+}
+
+.navArrow {
+  width: 36px;
+  height: 36px;
+  background-color: #f3f3f3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #101010;
+  font-size: 16px;
+  cursor: pointer;
+  left: -20px;
+  position: relative;
+}
+
+
+.cityCard {
+background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 1px 1px 3px rgba(0, 0, 0, 0.07);
+  transition: transform 0.2s ease;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+
+
+}
+
+.swiper-wrapper {
+
+  padding: 10px 0px !important;
+
+}
+
+
+._29m7e {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+.carouselSection h3 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+.citySwiper {
+  padding-bottom: 32px;
+}
+.cityCard {
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-decoration: none;
+  background: #fff;
+}
+.cityCard img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.cityDetails {
+  padding: 12px;
+}
+.cityDetails h4 {
+  margin: 0 0 4px;
+  font-size: 18px;
+}
+.cityDetails p {
+  margin: 0;
+  font-size: 14px;
+}
+.building {
+  color: #888;
+  font-size: 13px;
+}
+*/

@@ -1,0 +1,408 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --max-width: 1200px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+/* ========== Layout ========== */
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* ========== Header ========== */
+.container.filters {
+  background: #f3f3f6;
+  padding: 10px;
+}
+
+.header-wrapper {
+  font-family: Arial, sans-serif;
+}
+
+.topbar {
+  background: #f5f5f5;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.language-settings button {
+  margin-left: 10px;
+}
+
+.main-header {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+.main-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #333;
+}
+.filters-wrapper {
+  background: #f9f9f9;
+  padding: 1.5rem 0;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.filter-input {
+  flex: 1 1 200px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.filter-dropdown {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width:250px;
+}
+
+.filter-button {
+  padding: 20px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.filter-button.ghost {
+  background: #eee;
+  color: #333;
+}
+
+.filter-button.primary {
+  background: #111;
+  color: #fff;
+}
+
+
+.footer-wrapper {
+  background: #f2f2f2;
+  padding: 2rem 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.footer-sections {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.footer-sections h4 {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.footer-sections ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-sections li {
+  margin-bottom: 5px;
+}
+
+.footer-sections a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+
+
+
+
+
+/*****     Footer           ******/
+
+
+._3SOg6 {
+  background: #2e2e2e;
+  min-width: 1000px;
+  padding: 32px 0;
+}
+
+._2WJfY {
+  min-width: 1200px;
+}
+
+
+._1dYOf {
+  display: grid;
+  gap: 4px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 32px;
+}
+
+._32LIM {
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  white-space: nowrap;
+}
+
+._3Tret {
+  color: rgba(255, 255, 255, 0.56);
+  text-decoration: none;
+  display: block;
+}
+
+._3Tret:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+._3gRcx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+._3YGmH,
+._28BK4 {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.56);
+  display: inline-block;
+}
+
+._3LwG- .S3ycF {
+  color: #ccc;
+  margin-top: 8px;
+}
+
+
+
+._DfWR {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1260px;
+  min-width: 1000px;
+  padding: 0 20px;
+}
+
+
+
+/* Header */
+
+.header-wrapper {
+ 
+  background-color: transparent; 
+}
+
+.topbar {
+  background-color: #1a1a1a;
+}
+
+.main-header {
+  background: #ffffff; /* or keep it light */
+  border-bottom: 1px solid #ddd;
+}
+
+.topbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* Wrapper */
+.header-wrapper {
+  /* background-color: #1a1a1a; */
+  padding: 8px 0 16px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+/* Top Bar */
+.header-top {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.header-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.header-btn {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.header-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Icons inside buttons */
+.header-btn .icon {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
+}
+
+/* Main Header Section */
+.header-main {
+  max-width: 1200px;
+  margin: 12px auto 0;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  width: 120px;
+}
+.country {
+  color: #101010;
+  font-size: 16px;
+  font-weight: 500;
+}
+.filter-button.ghost {
+  background: #f3f3f6;
+  border: 1px solid #f3f3f6;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+/* Country selector */
+.country-btn {
+  margin-left: 20px;
+  background: #2e2e2e;
+  color: #fff;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 36px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* Menu Links */
+.main-menu {
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+}
+
+.main-menu a {
+  color: #101010;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 4px 6px;
+  border-radius: 6px;
+  transition: color 0.2s ease;
+}
+
+.main-menu a:hover {
+  color: #ba9c80;
+}
+.logo > strong {
+  color: #101010;
+}
+/* Optional icon color fix */
+svg use {
+  fill: #fff;
+}
+
+.swiper-slide.swiper-slide {
+  line-height: 24px;
+  font-size: 18px;
+}
+.swiper-slide.swiper-slide a > div {
+  line-height: 24px;
+  font-size: 18px;
+  margin-left: 6px;
+}
